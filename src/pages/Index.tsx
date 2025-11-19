@@ -39,6 +39,11 @@ const Index = () => {
               Patents
             </button>
           </Link>
+          <Link to="/opensource">
+            <button className="px-6 py-3 bg-lab-cyan/10 hover:bg-lab-cyan/20 text-white border border-lab-cyan/30 rounded transition-all duration-300">
+              Open Source
+            </button>
+          </Link>
         </div>
       </div>
     </div>

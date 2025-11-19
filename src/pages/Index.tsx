@@ -5,7 +5,7 @@ const Index = () => {
     <div className="min-h-screen flex items-center justify-center pt-16">
       <div className="relative z-10 container mx-auto px-4 text-center">
         <h1 className="text-6xl md:text-8xl font-bold text-white mb-8 tracking-tight leading-tight">
-          SPARK Artificial Intelligence Laboratory
+          SPARK Intelligence Laboratory
         </h1>
         <p className="text-xl md:text-3xl text-lab-cyan-light max-w-4xl mx-auto mb-12 font-light tracking-wide">
           Smart Processing and Research

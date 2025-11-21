@@ -5,40 +5,16 @@ import { Avatar, AvatarFallback } from '@/components/ui/avatar';
 
 const people = [
   {
-    name: 'Dr. Research Director',
-    role: 'Laboratory Director',
-    specialization: 'Artificial Intelligence & Machine Learning',
-    initials: 'RD',
+    name: 'Chaitanya Gunupudi',
+    role: 'Founder',
+    specialization: 'Infrastructure & Artificial Intelligence',
+    initials: 'CG',
   },
   {
-    name: 'Dr. Edge Computing Lead',
-    role: 'Research Lead',
-    specialization: 'Edge Computing & Distributed Systems',
-    initials: 'EC',
-  },
-  {
-    name: 'Dr. Blockchain Expert',
-    role: 'Research Lead',
-    specialization: 'Blockchain & Cryptography',
-    initials: 'BE',
-  },
-  {
-    name: 'Dr. IoT Specialist',
-    role: 'Senior Researcher',
-    specialization: 'Internet of Things & Smart Systems',
-    initials: 'IS',
-  },
-  {
-    name: 'Research Associate A',
-    role: 'Research Associate',
-    specialization: 'Neural Networks & Deep Learning',
-    initials: 'RA',
-  },
-  {
-    name: 'Research Associate B',
-    role: 'Research Associate',
-    specialization: 'Cybersecurity & Privacy',
-    initials: 'RB',
+    name: 'Dr. Rajesh Kumar Gnanasekaran',
+    role: 'Founder',
+    specialization: 'Artificial Intelligence & Gen AI',
+    initials: 'RK',
   },
 ];
 

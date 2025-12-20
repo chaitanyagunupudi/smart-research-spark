@@ -5,16 +5,28 @@ import { Avatar, AvatarFallback } from '@/components/ui/avatar';
 
 const people = [
   {
+    name: 'Harun Gunasekaran',
+    role: 'Founder, Principal Architect, and Chief Executive Officer',
+    specialization: 'Leadership & Strategy',
+    initials: 'HG',
+  },
+  {
     name: 'Chaitanya Gunupudi',
-    role: 'Founder',
-    specialization: 'Infrastructure & Artificial Intelligence',
+    role: 'Co-Founder, CTO',
+    specialization: 'Senior Cloud and AI Infrastructure Architect',
     initials: 'CG',
   },
   {
-    name: 'Dr. Rajesh Kumar Gnanasekaran',
-    role: 'Founder',
-    specialization: 'Artificial Intelligence & Gen AI',
-    initials: 'RK',
+    name: 'Dr. Rajesh Gnanasekaran',
+    role: 'Finance and Research Advisor',
+    specialization: 'Senior Research and Governance Advisor',
+    initials: 'RG',
+  },
+  {
+    name: 'V S Raviteja Vankadara',
+    role: 'Co-Founder',
+    specialization: 'Systems Engineering Specialist',
+    initials: 'RV',
   },
 ];
 

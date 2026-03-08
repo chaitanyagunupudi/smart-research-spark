@@ -7,7 +7,7 @@ interface Node {
   vy: number;
 }
 
-export const NetworkBackground = () => {
+export const NetworkBackground = memo(() => {
   const canvasRef = useRef<HTMLCanvasElement>(null);
 
   useEffect(() => {

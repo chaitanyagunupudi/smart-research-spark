@@ -1,4 +1,4 @@
-import { useEffect, useRef } from 'react';
+import { useEffect, useRef, memo } from 'react';
 
 interface Node {
   x: number;
@@ -7,7 +7,7 @@ interface Node {
   vy: number;
 }
 
-export const NetworkBackground = () => {
+export const NetworkBackground = memo(() => {
   const canvasRef = useRef<HTMLCanvasElement>(null);
 
   useEffect(() => {
@@ -92,6 +92,7 @@ export const NetworkBackground = () => {
       ref={canvasRef}
       className="fixed inset-0 -z-10"
       style={{ background: 'hsl(220, 25%, 12%)' }}
+      aria-hidden="true"
     />
   );
-};
+});

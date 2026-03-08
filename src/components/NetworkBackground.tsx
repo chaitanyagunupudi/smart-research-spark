@@ -92,6 +92,7 @@ export const NetworkBackground = memo(() => {
       ref={canvasRef}
       className="fixed inset-0 -z-10"
       style={{ background: 'hsl(220, 25%, 12%)' }}
+      aria-hidden="true"
     />
   );
-};
+});

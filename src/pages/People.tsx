@@ -51,7 +51,7 @@ const People = () => {
                 <Card key={index} className="border-lab-cyan/20 bg-card hover:shadow-lg transition-all duration-300">
                   <CardContent className="pt-6">
                     <div className="flex flex-col items-center text-center">
-                      <Avatar className="w-24 h-24 mb-4 border-2 border-lab-cyan/30">
+                      <Avatar className="w-24 h-24 mb-4 border-2 border-lab-cyan/30" aria-label={`${person.name} avatar`}>
                         <AvatarFallback className="bg-lab-cyan/10 text-lab-cyan text-xl font-bold">
                           {person.initials}
                         </AvatarFallback>

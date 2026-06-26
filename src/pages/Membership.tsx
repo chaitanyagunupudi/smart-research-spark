@@ -42,6 +42,7 @@ const tiers = [
       'Everything in Student',
       '25% off conference & hackathon registrations',
       '20% off all webinars',
+      '20% off publishing fees in ICEB & partner journals',
       'Discounts on AI tools: Claude, ChatGPT, Gemini, Perplexity, Cursor, Notion AI',
       'Early access to research previews & datasets',
       'Monthly office hours with the lab',

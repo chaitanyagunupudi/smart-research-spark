@@ -20,7 +20,7 @@ const tiers = [
   },
   {
     name: 'Student',
-    price: '$5',
+    price: '$20',
     period: '/month',
     audience: 'Undergraduate & graduate students',
     benefits: [

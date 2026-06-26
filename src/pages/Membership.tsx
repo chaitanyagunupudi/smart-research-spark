@@ -10,77 +10,81 @@ const tiers = [
     name: 'Community',
     price: 'Free',
     period: '',
-    audience: 'Students & curious public',
+    audience: 'Curious learners & public',
     benefits: [
+      'Subscription to official channels (YouTube, Podcast, LinkedIn)',
       'Monthly newsletter',
-      'Access to public publications',
-      'Blog & open-source updates',
+      'Access to public publications & blog',
       'Community announcements',
     ],
   },
   {
     name: 'Student',
-    price: '$49',
-    period: '/year',
+    price: '$5',
+    period: '/month',
     audience: 'Undergraduate & graduate students',
     benefits: [
       'Everything in Community',
-      'Webinars & seminars',
-      'Research previews',
-      'Student-only forum',
-      'Discounts on lab events',
+      '15% off conference & hackathon registrations',
+      '10% off webinar registrations',
+      'Student discounts on select AI tools (ChatGPT, Claude, Gemini, Perplexity, Cursor)',
+      'Student-only forum & study groups',
     ],
   },
   {
     name: 'Researcher',
-    price: '$249',
-    period: '/year',
-    audience: 'Academics & postdocs',
+    price: '$19',
+    period: '/month',
+    audience: 'Academics, postdocs & enthusiasts',
     popular: true,
     benefits: [
       'Everything in Student',
-      'Early access to papers',
-      'Dataset access',
-      'Monthly office hours',
-      'Co-author networking',
+      '25% off conference & hackathon registrations',
+      '20% off all webinars',
+      'Discounts on AI tools: Claude, ChatGPT, Gemini, Perplexity, Cursor, Notion AI',
+      'Early access to research previews & datasets',
+      'Monthly office hours with the lab',
     ],
   },
   {
     name: 'Professional',
-    price: '$999',
-    period: '/year',
-    audience: 'Industry practitioners',
+    price: '$49',
+    period: '/month',
+    audience: 'Industry practitioners & engineers',
     benefits: [
       'Everything in Researcher',
-      'Hands-on workshops',
-      'Conference discounts',
-      'Private Slack community',
+      '40% off conferences & hackathons + priority registration',
+      'Free access to most webinars',
+      'Premium AI tool discounts (Claude Pro, ChatGPT Plus, Gemini Advanced, Cursor Pro, GitHub Copilot)',
+      'Hands-on workshops & private Slack community',
       'Career & advisory sessions',
     ],
   },
   {
     name: 'Corporate',
-    price: '$4,999',
-    period: '/year',
+    price: '$299',
+    period: '/month',
     audience: 'Companies & universities',
     benefits: [
-      'Up to 10 team seats',
-      'Private briefings',
+      'Up to 10 team seats with all Professional benefits',
+      '50% off conferences & hackathons for the team',
+      'Bulk discounts on AI tool subscriptions',
+      'Private briefings & custom training sessions',
       'Co-research opportunities',
-      'Custom training sessions',
       'Priority support',
     ],
   },
   {
     name: 'Patron',
-    price: '$5,000+',
-    period: '/year',
+    price: '$500+',
+    period: '/month',
     audience: 'Sponsors & philanthropists',
     benefits: [
-      'Logo on website',
+      'All Corporate benefits included',
+      'Complimentary passes to all events',
+      'Logo on website & event materials',
       'Advisory board seat',
       'Named research grant',
-      'All previous benefits included',
       'Annual recognition event',
     ],
   },
@@ -96,10 +100,13 @@ const Membership = () => {
 
       <section className="py-16 bg-background">
         <div className="container mx-auto px-4">
-          <p className="text-lg text-muted-foreground text-center mb-12 max-w-3xl mx-auto">
-            Choose the tier that fits you best. Every membership directly supports our
-            research in AI, edge computing, and blockchain — and connects you with our
-            global community.
+          <p className="text-lg text-muted-foreground text-center mb-4 max-w-3xl mx-auto">
+            Monthly memberships built around what our community actually uses — discounts
+            on conferences, hackathons, webinars, and leading AI tools, plus direct access
+            to our official channels.
+          </p>
+          <p className="text-sm text-muted-foreground/80 text-center mb-12 max-w-2xl mx-auto">
+            Cancel anytime. Annual billing available at a 2-month discount.
           </p>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
@@ -153,7 +160,8 @@ const Membership = () => {
           </div>
 
           <p className="text-center text-sm text-muted-foreground mt-12 max-w-2xl mx-auto">
-            Need a custom arrangement or have questions? Reach out to us at{' '}
+            AI tool discounts are subject to availability and provider terms. Need a custom
+            arrangement? Email us at{' '}
             <a href="mailto:info@sparkintellingencelab.com" className="text-lab-cyan hover:underline">
               info@sparkintellingencelab.com
             </a>

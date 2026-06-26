@@ -86,6 +86,7 @@ const tiers = [
     benefits: [
       'All Corporate benefits included',
       'Complimentary passes to all events',
+      'Waived publishing fees in ICEB & partner journals',
       'Logo on website & event materials',
       'Advisory board seat',
       'Named research grant',

@@ -65,7 +65,7 @@ const tiers = [
   },
   {
     name: 'Corporate',
-    price: '$299',
+    price: '$399',
     period: '/month',
     audience: 'Companies & universities',
     benefits: [

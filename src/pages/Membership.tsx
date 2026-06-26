@@ -80,7 +80,7 @@ const tiers = [
   },
   {
     name: 'Patron',
-    price: '$500+',
+    price: '$1,000+',
     period: '/month',
     audience: 'Sponsors & philanthropists',
     benefits: [

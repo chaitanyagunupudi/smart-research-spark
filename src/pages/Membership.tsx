@@ -27,6 +27,7 @@ const tiers = [
       'Everything in Community',
       '15% off conference & hackathon registrations',
       '10% off webinar registrations',
+      '10% off publishing fees in ICEB & partner journals',
       'Student discounts on select AI tools (ChatGPT, Claude, Gemini, Perplexity, Cursor)',
       'Student-only forum & study groups',
     ],

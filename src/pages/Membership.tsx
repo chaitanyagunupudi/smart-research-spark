@@ -71,6 +71,7 @@ const tiers = [
     benefits: [
       'Up to 10 team seats with all Professional benefits',
       '50% off conferences & hackathons for the team',
+      '50% off publishing fees in ICEB & partner journals (team-wide)',
       'Bulk discounts on AI tool subscriptions',
       'Private briefings & custom training sessions',
       'Co-research opportunities',

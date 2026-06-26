@@ -34,7 +34,7 @@ const tiers = [
   },
   {
     name: 'Researcher',
-    price: '$19',
+    price: '$40',
     period: '/month',
     audience: 'Academics, postdocs & enthusiasts',
     popular: true,

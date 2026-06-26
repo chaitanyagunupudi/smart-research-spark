@@ -50,7 +50,7 @@ const tiers = [
   },
   {
     name: 'Professional',
-    price: '$49',
+    price: '$80',
     period: '/month',
     audience: 'Industry practitioners & engineers',
     benefits: [

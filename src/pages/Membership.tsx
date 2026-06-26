@@ -57,6 +57,7 @@ const tiers = [
       'Everything in Researcher',
       '40% off conferences & hackathons + priority registration',
       'Free access to most webinars',
+      '30% off publishing fees in ICEB & partner journals + fast-track review',
       'Premium AI tool discounts (Claude Pro, ChatGPT Plus, Gemini Advanced, Cursor Pro, GitHub Copilot)',
       'Hands-on workshops & private Slack community',
       'Career & advisory sessions',

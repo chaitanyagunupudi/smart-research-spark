@@ -12,6 +12,8 @@ import Publications from "./pages/Publications";
 import Patents from "./pages/Patents";
 import OpenSource from "./pages/OpenSource";
 import Membership from "./pages/Membership";
+import Login from "./pages/Login";
+import Profile from "./pages/Profile";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();

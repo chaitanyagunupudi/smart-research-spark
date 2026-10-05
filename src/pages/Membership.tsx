@@ -1,9 +1,8 @@
+import { Link } from 'react-router-dom';
 import { Hero } from '@/components/Hero';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
+import { Button } from '@/components/ui/button';
 import { Check, Star, Wrench, Calendar, BookOpen } from 'lucide-react';
-
-// TODO: Replace with your Google Form URL once created
-const GOOGLE_FORM_URL = '#';
 
 const tiers = [
   {
@@ -127,12 +126,65 @@ const Membership = () => {
         subtitle="Six tiers. One community. Monthly or yearly — yearly saves 2 months."
       />
 
+      {/* Welcome / Join — CaRCC-style portal sections */}
       <section className="py-16 bg-background">
+        <div className="container mx-auto px-4 max-w-4xl">
+          <h2 className="text-3xl font-bold text-foreground mb-4">Welcome to SPARK</h2>
+          <p className="text-lg text-muted-foreground leading-relaxed mb-10">
+            SPARK Intelligence Laboratory is a community of researchers, engineers, and
+            practitioners advancing applied AI, edge computing, and intelligent systems.
+            Membership connects you to our events, journals, AI tool discounts, and official
+            channels.
+          </p>
+
+          <h2 className="text-3xl font-bold text-foreground mb-4">Join SPARK</h2>
+          <p className="text-muted-foreground leading-relaxed mb-6">
+            <strong className="text-foreground">Joining is free at the Community tier.</strong>{' '}
+            Create an account to subscribe to our channels and newsletter, then upgrade to a
+            paid tier anytime for event, publishing, and AI tool discounts.
+          </p>
+          <Link to="/login">
+            <Button className="mb-12">Join Now</Button>
+          </Link>
+
+          <h2 className="text-3xl font-bold text-foreground mb-4">
+            Already a Member? Log in
+          </h2>
+          <p className="text-muted-foreground leading-relaxed mb-6">
+            If you have already created an account, log in with your email and password or
+            your Google account. First time logging in? Use the password reset option on the
+            login page to set your password.
+          </p>
+          <Link to="/login">
+            <Button variant="outline" className="mb-12">Log In</Button>
+          </Link>
+
+          <h2 className="text-3xl font-bold text-foreground mb-4">
+            Update your Profile and Subscription
+          </h2>
+          <p className="text-muted-foreground leading-relaxed mb-6">
+            To change your membership tier, update your affiliation, or manage your
+            subscription, visit your profile page. If you are not logged in, you will be
+            taken to the login page first. Questions? Contact us at{' '}
+            <a href="mailto:info@sparkintellingencelab.com" className="text-lab-cyan hover:underline">
+              info@sparkintellingencelab.com
+            </a>.
+          </p>
+          <Link to="/profile">
+            <Button variant="outline">Update Profile</Button>
+          </Link>
+        </div>
+      </section>
+
+      {/* Tiers */}
+      <section className="py-16 bg-background border-t border-lab-cyan/10">
         <div className="container mx-auto px-4">
+          <h2 className="text-3xl font-bold text-foreground text-center mb-4">
+            Membership Tiers
+          </h2>
           <p className="text-lg text-muted-foreground text-center mb-4 max-w-3xl mx-auto">
             Monthly memberships built around what our community actually uses — discounts
-            on conferences, hackathons, webinars, publishing, and leading AI tools, plus
-            direct access to our official channels.
+            on conferences, hackathons, webinars, publishing, and leading AI tools.
           </p>
           <p className="text-sm text-muted-foreground/80 text-center mb-12 max-w-2xl mx-auto">
             Cancel anytime. Upgrade or downgrade mid-cycle. Yearly billing saves 2 months (~17% off).
@@ -172,10 +224,8 @@ const Membership = () => {
                       </li>
                     ))}
                   </ul>
-                  <a
-                    href={GOOGLE_FORM_URL}
-                    target="_blank"
-                    rel="noopener noreferrer"
+                  <Link
+                    to="/login"
                     className={`block text-center w-full px-4 py-3 rounded font-medium transition-all duration-300 ${
                       tier.popular
                         ? 'bg-lab-cyan text-white hover:bg-lab-cyan-light'
@@ -183,7 +233,7 @@ const Membership = () => {
                     }`}
                   >
                     Join {tier.name}
-                  </a>
+                  </Link>
                 </CardContent>
               </Card>
             ))}

@@ -12,6 +12,8 @@ import Publications from "./pages/Publications";
 import Patents from "./pages/Patents";
 import OpenSource from "./pages/OpenSource";
 import Membership from "./pages/Membership";
+import Login from "./pages/Login";
+import Profile from "./pages/Profile";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -32,6 +34,8 @@ const App = () => (
             <Route path="/patents" element={<Patents />} />
             <Route path="/opensource" element={<OpenSource />} />
             <Route path="/membership" element={<Membership />} />
+            <Route path="/login" element={<Login />} />
+            <Route path="/profile" element={<Profile />} />
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
             <Route path="*" element={<NotFound />} />
           </Routes>

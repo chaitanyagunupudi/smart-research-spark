@@ -12,6 +12,7 @@ const navItems = [
   { name: 'Patents', path: '/patents' },
   { name: 'Open Source', path: '/opensource' },
   { name: 'Membership', path: '/membership' },
+  { name: 'Log In', path: '/login' },
 ];
 
 export const Navigation = () => {

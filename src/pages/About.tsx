@@ -22,9 +22,39 @@ const About = () => {
                 tackle the most pressing challenges in modern computing.
               </p>
               <p className="text-lg text-muted-foreground leading-relaxed">
-                Our mission is to foster innovation through collaborative research, develop practical solutions 
-                to real-world problems, and prepare the next generation of leaders in emerging technology fields.
+                Our mission: SPARK Intelligence Laboratory advances applied artificial intelligence through
+                rigorous research, resilient infrastructure, and principled governance. We bridge academic
+                inquiry with real-world deployment — building scalable AI systems, fostering open collaboration,
+                and equipping the next generation of researchers, engineers, and practitioners to shape
+                technology that is powerful, trustworthy, and accessible to all.
               </p>
+            </div>
+
+            <div className="grid md:grid-cols-3 gap-6 mb-12">
+              <Card className="border-lab-cyan/20 bg-card">
+                <CardContent className="pt-6 text-center">
+                  <h3 className="text-xl font-bold text-lab-cyan mb-2">Research</h3>
+                  <p className="text-muted-foreground text-sm">
+                    Pushing the frontiers of AI, edge computing, and intelligent systems.
+                  </p>
+                </CardContent>
+              </Card>
+              <Card className="border-lab-cyan/20 bg-card">
+                <CardContent className="pt-6 text-center">
+                  <h3 className="text-xl font-bold text-lab-cyan mb-2">Infrastructure</h3>
+                  <p className="text-muted-foreground text-sm">
+                    Building the scalable, secure foundations that production AI demands.
+                  </p>
+                </CardContent>
+              </Card>
+              <Card className="border-lab-cyan/20 bg-card">
+                <CardContent className="pt-6 text-center">
+                  <h3 className="text-xl font-bold text-lab-cyan mb-2">Governance</h3>
+                  <p className="text-muted-foreground text-sm">
+                    Ensuring responsible, transparent, and ethical deployment.
+                  </p>
+                </CardContent>
+              </Card>
             </div>
 
             <div className="grid md:grid-cols-2 gap-6 mt-12">
